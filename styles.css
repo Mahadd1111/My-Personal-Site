@@ -1,0 +1,156 @@
+body{
+    margin:0px;
+    font-family: sans-serif;
+}
+
+.introduction{
+    background-color: rgb(205, 220, 233);
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction h1{
+    color:rgb(35, 112, 163)
+}
+
+.introduction h2{
+    color:rgb(43, 136, 177)
+}
+
+.c1{
+    position:relative;
+    left:300px;
+    width:148px;
+    height:124px;
+}
+
+.c2{
+    position:relative;
+    right:300px;
+    width:148px;
+    height:124px;
+}
+
+.mountain{
+    width:40%;
+}
+
+.about{
+    color:rgb(35, 112, 163);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:40px 0 40px 0;
+}
+
+.about p{
+    width:50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile{
+    width:200px;
+    height:200px;
+}
+
+.Hobbies{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(205, 220, 233);
+    color:rgb(35, 112, 163)
+}
+
+.Hobbies .title{
+    margin-top:50px;
+}
+
+.skills{
+    color:rgb(35, 112, 163);
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Socials{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 5, 58);
+    color:white;
+    padding-top:40px;
+}
+
+.Socials p{
+    font-size:15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.list-item{
+    position: relative;
+    width:50%;
+    margin:100px;
+    margin-left: 25%;
+}
+
+.list-item p{
+    line-height: 2;
+}
+
+.list-item h3{
+    font-weight: bold;
+    color:rgb(17, 17, 119)
+}
+
+.himgs1{
+    width:25%;
+    float: left;
+    margin:40px;
+}
+
+.himgs2{
+    width:25%;
+    float: right;
+    margin:40px;
+}
+
+.skill-item{
+    width:50%;
+    margin:100px;
+    margin-left:25%;
+
+}
+
+.btn{
+    width:200px;
+    height:60px;
+    background-color: blue;
+    color:white;
+}
+
+.btn:hover{
+    background-color: darkblue;
+    color:white;
+    transform: scale(1.1);
+    cursor:pointer;
+}
+
+.Hobbies h3, .skills h3{
+    font-size:2rem;
+}
